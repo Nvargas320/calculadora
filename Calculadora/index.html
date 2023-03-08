@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+</head>
+<body>
+	<script src="java.js"></script>
+	<link rel="stylesheet" href="estilos.css">
+	<div id="calculadora">
+		
+		<div class="espacio">
+		<input type="text" id="resultado" readonly>
+		</div>
+
+	
+		<table>
+			
+			<tr>
+				<td><button onclick="buttonPressed('7')">7</button></td>
+				<td><button onclick="buttonPressed('8')">8</button></td>
+				<td><button onclick="buttonPressed('9')">9</button></td>
+				<td><button onclick="buttonPressed('*')">x</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="buttonPressed('4')">4</button></td>
+				<td><button onclick="buttonPressed('5')">5</button></td>
+				<td><button onclick="buttonPressed('6')">6</button></td>
+				<td><button onclick="buttonPressed('-')">−</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="buttonPressed('1')">1</button></td>
+				<td><button onclick="buttonPressed('2')">2</button></td>
+				<td><button onclick="buttonPressed('3')">3</button></td>
+				<td><button onclick="buttonPressed('+')">+</button></td>
+			</tr>
+			<tr>
+				
+				<td><button onclick="buttonPressed('.')">.</button></td>
+				<td><button onclick="buttonPressed('0')">0</button></td>
+				<td><button onclick="buttonPressed('=')">=</button></td>
+				<td><button onclick="buttonPressed('C')">c</button></td>
+			</tr>
+		</table>
+		
+	</div>
+	
+</body>
+</html>

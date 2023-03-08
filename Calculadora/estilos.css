@@ -1,0 +1,35 @@
+#calculadora {
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #6d6d6d;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+.espacio {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+table{
+    margin-left: 10px;
+}
+table button {
+
+
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    border: none;
+    font-size: 15px;
+    margin: 5px;
+    background-color: #ccd2cc;
+    color: rgb(38, 38, 38);
+    cursor: pointer;
+   
+}
+
+
